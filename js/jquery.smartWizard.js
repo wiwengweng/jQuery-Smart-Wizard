@@ -516,7 +516,7 @@ function SmartWizard(target, options) {
         enableFinishButton: false, // make finish button enabled always
         hideButtonsOnDisabled: false, // when the previous/next/finish buttons are disabled, hide them instead?
         errorSteps:[],    // Array Steps with errors
-        labelNext:'Next',
+        labelNext:'Next', //todo button i18n
         labelPrevious:'Previous',
         labelFinish:'Finish',
         noForwardJumping: false,
