@@ -391,7 +391,9 @@ function SmartWizard(target, options) {
         // just call this with status you want
         this.options.enableFinishButton = enable;
         if (this.options.includeFinishButton){
-            if (!this.steps.hasClass('disabled') || this.options.enableFinishButton){
+            //if (!this.steps.hasClass('disabled') || this.options.enableFinishButton){
+            //use this because I want to enable and disable by 'true'/'false' only
+            if this.options.enableFinishButton){
                 $(this.buttons.finish).removeClass("buttonDisabled");
                 if (this.options.hideButtonsOnDisabled) {
                     $(this.buttons.finish).show();
